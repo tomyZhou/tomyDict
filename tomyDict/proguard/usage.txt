@@ -1,0 +1,37 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+cn.com.tomy.dida.BuildConfig
+cn.com.tomy.dida.DidaActivity:
+    private static final int VOICE_RECOGNITION_REQUEST_CODE
+    protected static final java.lang.String TAG
+cn.com.tomy.dida.R
+cn.com.tomy.dida.R$anim
+cn.com.tomy.dida.R$attr
+cn.com.tomy.dida.R$drawable
+cn.com.tomy.dida.R$id
+cn.com.tomy.dida.R$layout
+cn.com.tomy.dida.R$string
+cn.com.tomy.dida.R$style
+cn.com.tomy.dida.TransActivity:
+    private static final int VOICE_RECOGNITION_REQUEST_CODE
+cn.com.tomy.domain.DBOpenHandler:
+    public static final java.lang.String TB_WORD
+    public static final java.lang.String ID
+    public static final java.lang.String NAME
+    public static final java.lang.String AUDIO
+    public static final java.lang.String PS
+    public static final java.lang.String DEF
+    public static final java.lang.String XML
+cn.com.tomy.domain.Dict:
+    34:34:public java.lang.String getPos()
+cn.com.tomy.domain.WordService:
+    60:61:public android.database.Cursor queryWord()
+cn.com.tomy.utils.DataAcess:
+    13:13:public DataAcess()
+cn.com.tomy.utils.MyAdapter:
+    21:21:public java.util.List getSents()
+cn.com.tomy.utils.PullXmlHelper
+cn.com.tomy.utils.SQLHelper
+cn.com.tomy.utils.SearchWords:
+    private static final java.lang.String URL
+    13:13:public SearchWords()

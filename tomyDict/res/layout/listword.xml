@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_save_word"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#104E8B"
+    android:orientation="vertical"
+    android:paddingLeft="2dp" >
+
+    <TextView
+        android:id="@+id/tv_save_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:textSize="24sp" 
+        android:text="hello "
+        />
+
+</LinearLayout>

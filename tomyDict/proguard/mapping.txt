@@ -1,0 +1,313 @@
+cn.com.tomy.dida.DidaActivity -> cn.com.tomy.dida.DidaActivity:
+    android.widget.ImageButton btn_voice -> b
+    android.widget.EditText edit_search -> c
+    android.widget.Button btn_search -> d
+    android.widget.TextView text_word -> e
+    android.widget.TextView text_pron -> f
+    android.widget.TextView btn_aduio -> g
+    android.widget.TextView btn_add -> h
+    android.widget.TextView text_def -> i
+    android.widget.ListView didaListview -> j
+    cn.com.tomy.utils.MyAdapter adapter -> k
+    java.lang.String aduioPath -> l
+    android.media.AudioManager audioManager -> m
+    int maxVolume -> n
+    android.content.Context context -> o
+    java.lang.StringBuffer sb -> a
+    android.app.ProgressDialog mProgressDialog -> p
+    cn.com.tomy.domain.Dict dict -> q
+    android.os.Handler handler -> r
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> b
+    void playAudio(java.lang.String) -> a
+    void voice() -> c
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    java.lang.Boolean CheckNet() -> d
+    android.app.ProgressDialog access$0(cn.com.tomy.dida.DidaActivity) -> a
+    void access$1(cn.com.tomy.dida.DidaActivity,cn.com.tomy.domain.Dict) -> a
+    cn.com.tomy.domain.Dict access$2(cn.com.tomy.dida.DidaActivity) -> b
+    android.widget.TextView access$3(cn.com.tomy.dida.DidaActivity) -> c
+    android.widget.EditText access$4(cn.com.tomy.dida.DidaActivity) -> d
+    android.widget.TextView access$5(cn.com.tomy.dida.DidaActivity) -> e
+    android.widget.TextView access$6(cn.com.tomy.dida.DidaActivity) -> f
+    android.widget.TextView access$7(cn.com.tomy.dida.DidaActivity) -> g
+    void access$8(cn.com.tomy.dida.DidaActivity,cn.com.tomy.utils.MyAdapter) -> a
+    cn.com.tomy.utils.MyAdapter access$9(cn.com.tomy.dida.DidaActivity) -> h
+    android.widget.ListView access$10(cn.com.tomy.dida.DidaActivity) -> i
+    android.widget.TextView access$11(cn.com.tomy.dida.DidaActivity) -> j
+    void access$12(cn.com.tomy.dida.DidaActivity,java.lang.String) -> a
+    void access$13(cn.com.tomy.dida.DidaActivity) -> k
+    java.lang.Boolean access$14(cn.com.tomy.dida.DidaActivity) -> l
+    void access$15(cn.com.tomy.dida.DidaActivity,android.app.ProgressDialog) -> a
+    android.os.Handler access$16(cn.com.tomy.dida.DidaActivity) -> m
+    java.lang.String access$17(cn.com.tomy.dida.DidaActivity) -> n
+    android.content.Context access$18() -> a
+cn.com.tomy.dida.DidaActivity$1 -> cn.com.tomy.dida.a:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+cn.com.tomy.dida.DidaActivity$2 -> cn.com.tomy.dida.b:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.DidaActivity$3 -> cn.com.tomy.dida.c:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    cn.com.tomy.dida.DidaActivity access$0(cn.com.tomy.dida.DidaActivity$3) -> a
+cn.com.tomy.dida.DidaActivity$3$1 -> cn.com.tomy.dida.d:
+    cn.com.tomy.dida.DidaActivity$3 this$1 -> a
+    java.lang.String val$words -> b
+    void run() -> run
+cn.com.tomy.dida.DidaActivity$4 -> cn.com.tomy.dida.e:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.DidaActivity$5 -> cn.com.tomy.dida.f:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.DidaActivity$6 -> cn.com.tomy.dida.g:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    java.lang.String[] val$items -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.DidaActivity$7 -> cn.com.tomy.dida.h:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.DidaActivity$8 -> cn.com.tomy.dida.i:
+    cn.com.tomy.dida.DidaActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.LogoActivity -> cn.com.tomy.dida.LogoActivity:
+    android.widget.ImageView logoIcon -> a
+    void onCreate(android.os.Bundle) -> onCreate
+cn.com.tomy.dida.LogoActivity$1 -> cn.com.tomy.dida.j:
+    cn.com.tomy.dida.LogoActivity this$0 -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+cn.com.tomy.dida.MainActivity -> cn.com.tomy.dida.MainActivity:
+    android.widget.TabHost tabHost -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.TabHost access$0(cn.com.tomy.dida.MainActivity) -> a
+cn.com.tomy.dida.MainActivity$1 -> cn.com.tomy.dida.k:
+    cn.com.tomy.dida.MainActivity this$0 -> a
+    void onCheckedChanged(android.widget.RadioGroup,int) -> onCheckedChanged
+cn.com.tomy.dida.MoreActivity -> cn.com.tomy.dida.MoreActivity:
+    android.widget.LinearLayout layoutSet -> a
+    android.widget.LinearLayout layoutNumber -> b
+    android.widget.LinearLayout layoutIdea -> c
+    android.widget.LinearLayout version -> d
+    android.widget.LinearLayout about -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+cn.com.tomy.dida.MoreActivity$1 -> cn.com.tomy.dida.l:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.MoreActivity$2 -> cn.com.tomy.dida.m:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.MoreActivity$3 -> cn.com.tomy.dida.n:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.MoreActivity$4 -> cn.com.tomy.dida.o:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.MoreActivity$5 -> cn.com.tomy.dida.p:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.MoreActivity$6 -> cn.com.tomy.dida.q:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.MoreActivity$7 -> cn.com.tomy.dida.r:
+    cn.com.tomy.dida.MoreActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.RegisterActivity -> cn.com.tomy.dida.RegisterActivity:
+    android.widget.EditText registerUserName -> a
+    android.widget.EditText registerPassWord -> b
+    android.widget.EditText email -> c
+    android.widget.ImageView agreementCheckBox -> d
+    java.lang.Boolean isPlay -> e
+    android.widget.ImageButton backBtn -> f
+    android.widget.ImageButton registerBtn02 -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.Boolean access$0() -> a
+    android.widget.ImageView access$1(cn.com.tomy.dida.RegisterActivity) -> a
+    void access$2(java.lang.Boolean) -> a
+    android.widget.EditText access$3(cn.com.tomy.dida.RegisterActivity) -> b
+    android.widget.EditText access$4(cn.com.tomy.dida.RegisterActivity) -> c
+    android.widget.EditText access$5(cn.com.tomy.dida.RegisterActivity) -> d
+cn.com.tomy.dida.RegisterActivity$1 -> cn.com.tomy.dida.s:
+    cn.com.tomy.dida.RegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.RegisterActivity$2 -> cn.com.tomy.dida.t:
+    cn.com.tomy.dida.RegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.RegisterActivity$3 -> cn.com.tomy.dida.u:
+    cn.com.tomy.dida.RegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.SendMailActivity -> cn.com.tomy.dida.SendMailActivity:
+    android.widget.EditText emailTitle -> a
+    android.widget.EditText emailContent -> b
+    android.widget.Button emailBack -> c
+    android.widget.Button emailSend -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.EditText access$0(cn.com.tomy.dida.SendMailActivity) -> a
+    android.widget.EditText access$1(cn.com.tomy.dida.SendMailActivity) -> b
+cn.com.tomy.dida.SendMailActivity$1 -> cn.com.tomy.dida.v:
+    cn.com.tomy.dida.SendMailActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.SendMailActivity$2 -> cn.com.tomy.dida.w:
+    cn.com.tomy.dida.SendMailActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.TestActivity -> cn.com.tomy.dida.TestActivity:
+    android.widget.EditText userName -> a
+    android.widget.EditText password -> b
+    android.widget.ImageButton registerBtn -> c
+    android.widget.ImageButton loginBtn -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.widget.EditText access$0(cn.com.tomy.dida.TestActivity) -> a
+    android.widget.EditText access$1(cn.com.tomy.dida.TestActivity) -> b
+cn.com.tomy.dida.TestActivity$1 -> cn.com.tomy.dida.x:
+    cn.com.tomy.dida.TestActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.TestActivity$2 -> cn.com.tomy.dida.y:
+    cn.com.tomy.dida.TestActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.TestActivity$3 -> cn.com.tomy.dida.z:
+    cn.com.tomy.dida.TestActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.TestActivity$4 -> cn.com.tomy.dida.aa:
+    cn.com.tomy.dida.TestActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.TestsActivity -> cn.com.tomy.dida.TestsActivity:
+    android.widget.EditText userName -> a
+    android.widget.EditText password -> b
+    android.widget.ImageButton registerBtn -> c
+    android.widget.ImageButton loginBtn -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.EditText access$0(cn.com.tomy.dida.TestsActivity) -> a
+    android.widget.EditText access$1(cn.com.tomy.dida.TestsActivity) -> b
+cn.com.tomy.dida.TestsActivity$1 -> cn.com.tomy.dida.ab:
+    cn.com.tomy.dida.TestsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.TestsActivity$2 -> cn.com.tomy.dida.ac:
+    cn.com.tomy.dida.TestsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.TransActivity -> cn.com.tomy.dida.TransActivity:
+    android.widget.ImageButton btn_type -> b
+    android.widget.Button btn_tran -> c
+    android.widget.Button btn_voice -> d
+    android.widget.EditText et_value -> e
+    android.widget.EditText et_result -> f
+    android.app.ProgressDialog mProgressDialog -> g
+    java.lang.Boolean isTrue -> h
+    java.util.regex.Matcher m -> a
+    android.os.Handler handler -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> c
+    java.lang.Boolean CheckNet() -> d
+    void onClick(android.view.View) -> onClick
+    void search() -> a
+    void voice() -> e
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.app.ProgressDialog access$0(cn.com.tomy.dida.TransActivity) -> a
+    android.widget.EditText access$1(cn.com.tomy.dida.TransActivity) -> b
+    android.widget.ImageButton access$2(cn.com.tomy.dida.TransActivity) -> c
+    void access$3(java.lang.Boolean) -> a
+    java.lang.Boolean access$4() -> b
+    android.os.Handler access$5(cn.com.tomy.dida.TransActivity) -> d
+    android.widget.EditText access$6(cn.com.tomy.dida.TransActivity) -> e
+cn.com.tomy.dida.TransActivity$1 -> cn.com.tomy.dida.ad:
+    cn.com.tomy.dida.TransActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+cn.com.tomy.dida.TransActivity$2 -> cn.com.tomy.dida.ae:
+    cn.com.tomy.dida.TransActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+cn.com.tomy.dida.TransActivity$3 -> cn.com.tomy.dida.af:
+    cn.com.tomy.dida.TransActivity this$0 -> a
+    java.lang.String val$word -> b
+    void run() -> run
+cn.com.tomy.dida.TransActivity$4 -> cn.com.tomy.dida.ag:
+    cn.com.tomy.dida.TransActivity this$0 -> a
+    java.lang.String[] val$items -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.TransActivity$5 -> cn.com.tomy.dida.ah:
+    cn.com.tomy.dida.TransActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.TransActivity$6 -> cn.com.tomy.dida.ai:
+    cn.com.tomy.dida.TransActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.WordsBookActivity -> cn.com.tomy.dida.WordsBookActivity:
+    android.widget.ListView lv_word -> a
+    cn.com.tomy.domain.WordService service -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+cn.com.tomy.dida.WordsBookActivity$1 -> cn.com.tomy.dida.aj:
+    cn.com.tomy.dida.WordsBookActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.dida.WordsBookActivity$2 -> cn.com.tomy.dida.ak:
+    cn.com.tomy.dida.WordsBookActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.com.tomy.domain.DBOpenHandler -> cn.com.tomy.a.a:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+cn.com.tomy.domain.Dict -> cn.com.tomy.a.b:
+    java.lang.String key -> a
+    java.lang.String ps -> b
+    java.lang.String pron -> c
+    java.lang.String pos -> d
+    java.lang.String acceptation -> e
+    java.util.List sents -> f
+    java.lang.String getKey() -> a
+    void setKey(java.lang.String) -> a
+    java.lang.String getPs() -> b
+    void setPs(java.lang.String) -> b
+    java.lang.String getPron() -> c
+    void setPron(java.lang.String) -> c
+    void setPos(java.lang.String) -> d
+    java.lang.String getAcceptation() -> d
+    void setAcceptation(java.lang.String) -> e
+    java.util.List getSents() -> e
+    void setSents(java.util.List) -> a
+cn.com.tomy.domain.Sent -> cn.com.tomy.a.c:
+    java.lang.String orig -> a
+    java.lang.String trans -> b
+    java.lang.String getOrig() -> a
+    void setOrig(java.lang.String) -> a
+    java.lang.String getTrans() -> b
+    void setTrans(java.lang.String) -> b
+cn.com.tomy.domain.WordService -> cn.com.tomy.a.d:
+    cn.com.tomy.domain.DBOpenHandler dbOpenHandler -> a
+    void insertWords(cn.com.tomy.domain.Dict) -> a
+    java.util.List listWords() -> a
+cn.com.tomy.utils.DataAcess -> cn.com.tomy.b.a:
+    java.lang.String getStreamByUrl(java.lang.String) -> a
+cn.com.tomy.utils.MyAdapter -> cn.com.tomy.b.b:
+    android.content.Context context -> a
+    java.util.List sents -> b
+    void setSents(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+cn.com.tomy.utils.SaxParseXml -> cn.com.tomy.b.c:
+    cn.com.tomy.domain.Dict dict -> k
+    java.util.List sents -> l
+    cn.com.tomy.domain.Sent sent -> m
+    java.lang.StringBuffer acceptation -> n
+    int CONSTANT_DIC -> a
+    int CONSTANT_KEY -> b
+    int CONSTANT_PS -> c
+    int CONSTANT_PRON -> d
+    int CONSTANT_POS -> e
+    int CONSTANT_ACCEPTATION -> f
+    int CONSTANT_SENT -> g
+    int CONSTANT_ORIG -> h
+    int CONSTANT_TRANS -> i
+    int currentState -> j
+    void startDocument() -> startDocument
+    void endDocument() -> endDocument
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+    void characters(char[],int,int) -> characters
+    cn.com.tomy.domain.Dict getDict() -> a
+cn.com.tomy.utils.SearchWords -> cn.com.tomy.b.d:
+    cn.com.tomy.domain.Dict tansWord(java.lang.String) -> a
